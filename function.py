@@ -8,7 +8,7 @@ def DateEdit(date):
             date[2] = date[2][-2:]
         date_text = str(date[0])+"/"+str(date[1])+"/"+str(date[2])
     else:
-        date_text='               '
+        date_text='                '
     return date_text
 
 
